@@ -12,6 +12,21 @@ const router = createRouter({
       name: "welcome",
       component: WelcomeView,
     },
+    {
+      path: "/enrolment",
+      name: "enrolment",
+      component: EnrolmentView,
+    },
+    {
+      path: "/record-attendance",
+      name: "Record attendance",
+      component: RecordAttendance,
+    },
+    {
+      path: "/review-attendance",
+      name: "Review attendance",
+      component: ReviewAttendance,
+    },
   ],
 });
 
